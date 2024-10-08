@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/option_sort"
+        android:title="Sắp xếp theo"
+        >
+        <menu>
+            <group>
+                <item
+                    android:id="@+id/option_sort_default"
+                    android:title="Mặc định" />
+                <item
+                    android:id="@+id/option_sort_name_asc"
+                    android:title="Tên tăng dần" />
+                <item
+                    android:id="@+id/option_sort_name_desc"
+                    android:title="Tên giảm dần" />
+            </group>
+        </menu>
+    </item>
+    <item
+        android:id="@+id/option_select"
+        android:title="Chọn" />
+    <item
+        android:id="@+id/option_add"
+        android:title="Thêm danh bạ" />
+    <item
+        android:id="@+id/option_delete"
+        android:title="Xóa danh bạ" />
+</menu>
