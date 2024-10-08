@@ -8,7 +8,7 @@
     tools:context=".UpdateContactActivity">
 
     <TextView
-        android:id="@+id/textView"
+        android:id="@+id/textView1"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tv_old_name"
@@ -36,12 +36,12 @@
         android:id="@+id/tv_new_phone_number"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignBottom="@+id/textView"
+        android:layout_alignBottom="@+id/textView1"
         android:layout_alignParentEnd="true"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="20dp"
         android:layout_marginBottom="-4dp"
-        android:layout_toEndOf="@+id/textView"
+        android:layout_toEndOf="@+id/textView1"
         android:ems="10"
         android:inputType="text" />
 
@@ -49,7 +49,7 @@
         android:id="@+id/textView2"
         android:layout_width="120dp"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/textView"
+        android:layout_below="@+id/textView1"
         android:layout_alignParentStart="true"
         android:layout_marginStart="20dp"
         android:layout_marginTop="40dp"
